@@ -177,7 +177,7 @@ let make = (~address, ~hashtag: Route.validator_tab_t) => {
            <HSpacing size=Spacing.md />
            <Text value={validator.moniker} size=Text.Xxl weight=Text.Bold nowrap=true />
          </>
-       | _ => <LoadingCensorBar width=150 height=50 />
+       | _ => <LoadingCensorBar width=150 height=20 />
        }}
     </div>
     <VSpacing size=Spacing.xl />
